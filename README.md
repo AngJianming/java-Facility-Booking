@@ -10,9 +10,9 @@ In this Java Programming project I used gradle insted of maven as I soly wanted 
 
 ## To start a server
 `./gradlew run --args='[PORT_NUMBER] [AT_MOST_ONCE] [PACKET_DROP_RATE]'`\
-- PORT_NUMBER: server port number
-- AT_MOST_ONCE: boolean, true to start server using at-most-once semantics and false to start using at-least-once semantics
-- PACKET_DROP_RATE: probability that a packet will be dropped by the server
+- `PORT_NUMBER`: server port number
+- `AT_MOST_ONCE`: boolean, true to start server using at-most-once semantics and false to start using at-least-once semantics
+- `PACKET_DROP_RATE`: probability that a packet will be dropped by the server
 
 ## To start a client
 `cd src/main/java` \
