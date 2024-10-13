@@ -19,10 +19,10 @@ In this Java Programming project I used gradle insted of maven as I soly wanted 
 `javac client/Main.java` \
 `java client.Main [HOST_NAME] [SERVER_PORT] [CLIENT_PORT] [PACKET_DROP_RATE] [TIMEOUT] [MAX_TRIES]`
 
-- HOST_NAME: IP address of server
-- SERVER_PORT: server port number
-- CLIENT_PORT: client port number
-- PACKET_DROP_RATE: probability that a packet will be dropped by the client
-- TIMEOUT: client socket timeout in milliseconds
-- MAX_TRIES: maximum number of retries
+- `HOST_NAME`: IP address of server
+- `SERVER_PORT`: server port number
+- `CLIENT_PORT`: client port number
+- `PACKET_DROP_RATE`: probability that a packet will be dropped by the client
+- `TIMEOUT`: client socket timeout in milliseconds
+- `MAX_TRIES`: maximum number of retries
 
